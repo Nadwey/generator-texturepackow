@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tworzyciel texture packów</title>
+    </head>
+    <body>
+
+        <div id="kontent">
+            <h1>Tworzacz texture packów (1.16.4)</h1><br />
+            Mnożnik rozdzielczości (testowy):
+            <select id="mnoznik-rozdzielczosci">
+                <option>1</option>
+                <option>2</option>
+                <option>4</option>
+                <option>8 (wolne)</option>
+                <option value="16">16 (bardzo wolne)</option>
+                <option value="32">32 (naprawde wolne)</option>
+            </select><br />
+            <button id="wybierz-plik">Wybierz plik</button><br /><br />
+            Log:<br />
+            <textarea style="width: 600px; height: 300px;" id="log"></textarea>
+        </div>
+        
+
+
+
+
+
+        <script src="renderer.js"></script>
+        <style>
+            h1 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: lighter;
+            }
+
+            #kontent {
+                margin: 15px !important;
+                color: white;
+            }
+
+            body {
+                
+                
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: lighter;
+                background-color: #121212;
+            }
+
+            button {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: lighter;
+                font-size: 24px;
+                background-color: #333333;
+                color: white;
+                padding: 5px 20px;
+                border: none;
+                outline: none;
+                border-bottom: solid 1px #2080ff;
+            }
+        </style>
+    </body>
+</html>
