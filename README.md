@@ -5,4 +5,5 @@
 Tworzy texurepack z wybranego obrazu
 
 ### Uruchamianie
-W folderze z projektem uruchom `npm start`
+Upewnij się że masz zainstalowany Node.js
+W folderze z projektem uruchom `npm install`, potem `npm start`
